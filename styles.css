@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; 
+}
+
+body{
+  background-color:	#0dcbff ;
+}
+
+.logo {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+ /*display: block e  margin: 20px auto serve para deixar centralizado o gif
+ no margin fica um espaco de 20px superior e inferior e dos lados automantico ,
+ pois nas imagens o padrao e  display: inline;*/
+}
+
+main {
+  width: 375px;
+  background: #F4F4F4;
+  border-radius: 20px;
+  margin: 0 auto 40px; /*40px serve para nao deixar a pagina grudada no conteudo */
+  padding: 44px 24px 23px; /*cima , dos lados e embaixo*/
+}
+
+label {
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+select, input {
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid #BBBBBB;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px; /*serve para separar uma caixinha da outra*/
+  padding-left: 18px; /*serve para espaçar a escrita dentro da caixinha */
+  font-weight: 700; /*tamanho da espessura da letra  */
+  font-size: 16px;  /* tamanho do texto */
+  color: #555555; /*cor da letra */
+   cursor: pointer;
+}
+
+button {
+  background: #0dcbff;
+  width: 100%;
+  border-radius: 5px;
+  border: none; /*serve para tirar a borda */
+  height: 48px;
+  color: #000000; /*cor do texto */
+  font-size: 16px; /* tamanho do texto */
+  font-weight: 700; /*tamanho da espessura da letra */
+  cursor: pointer;
+
+}
+
+section {
+  border: 1px solid #0dcbff; 
+  border-radius: 20px;
+  margin-top: 36px; /*espaço entre o botão e a sessão*/
+  padding: 12px; /*espaço a sessão e as letras */ 
+
+  display: flex; /*por padrao ele deixa tudo um do lado do outro */
+  flex-direction: column; /* vai deixar os icones um encima do outro (coluna) */
+  align-items: center; /*serve para centralizar os icones */
+}
+
+.arrow-img {
+  margin: 15px 0; /*serve para distanciar */
+}
+
+.currency-box {
+  display: flex; /*por padrao ele deixa tudo um do lado do outro */
+  flex-direction: column; /* vai deixar os icones um encima do outro (coluna) */
+  align-items: center; /*serve para centralizar os icones */
+  gap: 4px; /*distancia entre os itens */
+}
+
+.currency {
+  color: #777777;
+  font-size: 14px;
+}
+
+.currency-value, .currency-value-convert {
+  color: #555555;
+  font-size: 20px;
+  font-weight: 700;
+}
